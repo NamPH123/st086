@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ST086_Spranki_Music</string>
+
+    <string name="rate_us_ed">You\'ve already voted!</string>
+    <string name="one_start_title">Oh, no!</string>
+    <string name="four_start_title">We love you too!</string>
+    <string name="zero_star_title">Do you like the app?</string>
+    <string name="one_start">Please give us some feedback</string>
+    <string name="four_start">Thanks for your feedback</string>
+    <string name="zero_star">Let us know your experience</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="rate">Rate</string>
+    <string name="exit">Exit</string>
+    <string name="rate_us_0">You have not rated it yet!</string>
+    <string name="you_have_not_selected_anything_yet">You have not selected anything yet</string>
+    <string name="allow">Allow</string>
+    <string name="this_action_may_contain_advertising">This action can contain ads</string>
+    <string name="language">Language</string>
+    <string name="next">Next</string>
+    <string name="intro1">photo1</string>
+    <string name="intro2">photo2</string>
+    <string name="intro3">photo3</string>
+    <string name="spranky_music">Spranky Music</string>
+    <string name="choose_a_topic_that_you_like">Choose a topic that you like</string>
+    <string name="horror">Horror</string>
+    <string name="continue2">Continue</string>
+    <string name="settings">Settings</string>
+    <string name="share_app">Share App</string>
+    <string name="policy"><![CDATA[Privacy & Policy]]></string>
+</resources>

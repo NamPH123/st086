@@ -1,0 +1,26 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    id 'com.google.dagger.hilt.android' version '2.48.1' apply false
+    id 'androidx.navigation.safeargs' version '2.5.0' apply false
+    id 'com.google.gms.google-services' version "4.3.0" apply false
+    id("com.google.firebase.crashlytics") version "2.9.9" apply false
+}
+ext {
+    okhttp = '5.0.0-alpha.2'
+    glide_version = '4.14.2'
+    room_version = "2.6.0"
+
+    hilt_lib = [
+            "com.google.dagger:hilt-android:2.42"
+    ]
+
+    glide_lib = [
+            "com.github.bumptech.glide:glide:$glide_version"
+    ]
+
+    glide_annotation = [
+            "com.github.bumptech.glide:compiler:$glide_version"
+    ]
+}

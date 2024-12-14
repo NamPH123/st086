@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/imv_bg_home_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imvBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="46dp"
+            android:padding="8dp"
+            android:src="@drawable/imv_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imvPause"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:src="@drawable/imv_play"
+            app:layout_constraintBottom_toBottomOf="@+id/imvBack"
+            app:layout_constraintEnd_toStartOf="@id/imvRestart"
+            app:layout_constraintTop_toTopOf="@+id/imvBack" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imvRestart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:padding="8dp"
+            android:src="@drawable/imv_restart"
+            app:layout_constraintBottom_toBottomOf="@+id/imvBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imvBack" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:src="@drawable/imv_request"
+            app:layout_constraintEnd_toEndOf="@+id/imvRestart"
+            app:layout_constraintTop_toBottomOf="@+id/imvRestart" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imv2"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/imv_bg_home_2"
+            app:layout_constraintTop_toBottomOf="@id/imv1"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imv3"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/imv_bg_home_2"
+            app:layout_constraintTop_toBottomOf="@id/imv2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/imv1">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer1"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer2"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer3"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/imv2"
+            android:paddingHorizontal="50dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer4"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer5"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/imv3">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer6"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer7"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imvPer8"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:src="@drawable/imv_persion"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/imv_bg_playing"
+            app:layout_constraintTop_toBottomOf="@id/ll3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:paddingTop="10dp"
+            android:paddingHorizontal="15dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
